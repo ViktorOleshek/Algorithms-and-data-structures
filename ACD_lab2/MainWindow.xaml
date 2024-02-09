@@ -1,0 +1,29 @@
+﻿<Window x:Class="ACD_lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACD_lab2"
+        mc:Ignorable="d"
+        Title="laba2" Height="450" Width="800" Closing="OnClosing">
+    <Grid>
+        <Button Content="Create array 1" HorizontalAlignment="Left" Height="28" Margin="17,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_CreateArray1"/>
+        <Button Content="Create array 2" HorizontalAlignment="Left" Height="28" Margin="132,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_CreateArray2"/>
+        <Button Content="Create array 3" HorizontalAlignment="Left" Height="28" Margin="250,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_CreateArray3"/>
+        <Button Content="Sort array 3" HorizontalAlignment="Left" Height="28" Margin="370,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_Sort"/>
+        <Button Content="Checking sort" HorizontalAlignment="Left" Height="28" Margin="486,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_CheckingSort"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="28" Margin="612,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_Exit"/>
+        <Label Content="array1:" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="50" Background="#FFF1DFDF"/>
+        <Label Content="array2:" HorizontalAlignment="Left" Height="30" Margin="10,45,0,0" VerticalAlignment="Top" Background="#FFF1DFDF" Width="50"/>
+        <Label Content="array3:" HorizontalAlignment="Left" Height="30" Margin="10,82,0,0" VerticalAlignment="Top" Background="#FFF1DFDF" Width="50"/>
+        <Label x:Name="Label_PrintArray1" Content="" HorizontalAlignment="Left" Height="30" Margin="65,10,0,0" VerticalAlignment="Top" Width="610" Background="#FFF1DFDF"/>
+        <Label x:Name="Label_PrintArray2" Content="" HorizontalAlignment="Left" Height="30" Margin="65,45,0,0" VerticalAlignment="Top" Width="610" Background="#FFF1DFDF"/>
+        <Label x:Name="Label_PrintArray3" Content="" HorizontalAlignment="Left" Height="137" Margin="65,80,0,0" VerticalAlignment="Top" Width="610" Background="#FFF1DFDF"/>
+        <TextBox x:Name="TextBox_ArraySize1" HorizontalAlignment="Left" Height="29" Margin="17,343,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" />
+        <TextBox x:Name="TextBox_ArraySize2" HorizontalAlignment="Left" Height="29" Margin="132,343,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100"/>
+        <Label Content="array1 size" HorizontalAlignment="Left" Height="30" Margin="17,310,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="array2 size" HorizontalAlignment="Left" Height="30" Margin="132,313,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="Label_ResultCheck" Content="Result: " HorizontalAlignment="Left" Height="30" Margin="486,343,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="Label_SortingTime" Content="Time: " HorizontalAlignment="Left" Height="30" Margin="370,340,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>

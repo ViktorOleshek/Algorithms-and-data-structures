@@ -1,0 +1,15 @@
+D:\Visual Studio\VS project\ACD\x64\Debug\ACD.vcxproj.AssemblyReference.cache
+D:\Visual Studio\VS project\ACD\x64\Debug\ACD.laba1.resources
+D:\Visual Studio\VS project\ACD\x64\Debug\ACD.vcxproj.GenerateResource.cache
+D:\Visual Studio\VS project\ACD\x64\Debug\ACD.vcxproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\VS project\ACD\x64\Debug\ACD.exe
+D:\Visual Studio\VS project\Нова папка (2)\ACD\x64\Debug\ACD.vcxproj.AssemblyReference.cache
+D:\Visual Studio\VS project\Нова папка (2)\ACD\x64\Debug\ACD.vcxproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\VS project\Нова папка (2)\ACD\x64\Debug\ACD.laba1.resources
+D:\Visual Studio\VS project\Нова папка (2)\ACD\x64\Debug\ACD.vcxproj.GenerateResource.cache
+D:\Visual Studio\VS project\Нова папка (2)\ACD\x64\Debug\ACD.exe
+D:\Visual Studio\VS project\ACD\ACD_lab1\x64\Debug\ACD.vcxproj.AssemblyReference.cache
+D:\Visual Studio\VS project\ACD\ACD_lab1\x64\Debug\ACD.vcxproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\VS project\ACD\ACD_lab1\x64\Debug\ACD.laba1.resources
+D:\Visual Studio\VS project\ACD\ACD_lab1\x64\Debug\ACD.vcxproj.GenerateResource.cache
+D:\Visual Studio\VS project\ACD\ACD_lab1\x64\Debug\ACD.exe

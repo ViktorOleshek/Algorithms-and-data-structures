@@ -1,0 +1,21 @@
+﻿<Window x:Class="ACD_lab3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACD_lab3"
+        mc:Ignorable="d"
+        Title="laba3" Height="450" Width="800" Closing="OnClosing">
+    <Grid>
+        <Button Content="Create array" HorizontalAlignment="Left" Height="28" Margin="17,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_CreateArray"/>
+        <Button Content="Sort array" HorizontalAlignment="Left" Height="28" Margin="370,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_QuickSort"/>
+        <Button Content="Checking sort" HorizontalAlignment="Left" Height="28" Margin="486,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_CheckingSort"/>
+        <Button Content="Change max element in row" HorizontalAlignment="Left" Height="28" Margin="132,378,0,0" VerticalAlignment="Top" Width="223" Click="Button_ChangeMaxElementInRow"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="28" Margin="612,378,0,0" VerticalAlignment="Top" Width="100" Click="Button_Exit"/>
+        <TextBox x:Name="TextBox_ArraySize1" HorizontalAlignment="Left" Height="29" Margin="17,343,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" />
+        <TextBox x:Name="TextBox_PrintArray" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Margin="0,10,0,112" TextWrapping="Wrap" Text="" Width="Auto" />
+        <Label Content="array size" HorizontalAlignment="Left" Height="30" Margin="17,310,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="Label_ResultCheck" Content="Result: " HorizontalAlignment="Left" Height="30" Margin="486,343,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="Label_SortingTime" Content="Time: " HorizontalAlignment="Left" Height="30" Margin="370,340,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>

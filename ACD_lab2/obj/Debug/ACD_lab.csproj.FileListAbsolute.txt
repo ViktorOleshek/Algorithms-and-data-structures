@@ -1,0 +1,16 @@
+D:\Visual Studio\VS project\ACD_lab\bin\Debug\ACD_lab.exe.config
+D:\Visual Studio\VS project\ACD_lab\bin\Debug\ACD_lab.exe
+D:\Visual Studio\VS project\ACD_lab\bin\Debug\ACD_lab.pdb
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab.csproj.AssemblyReference.cache
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\MainWindow.g.cs
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\App.g.cs
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab_MarkupCompile.cache
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab_MarkupCompile.lref
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\MainWindow.baml
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab.g.resources
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab.Properties.Resources.resources
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab.csproj.GenerateResource.cache
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab.csproj.CoreCompileInputs.cache
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab.exe
+D:\Visual Studio\VS project\ACD_lab\obj\Debug\ACD_lab.pdb
