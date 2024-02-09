@@ -1,0 +1,67 @@
+﻿<Window x:Class="ACD_lab8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACD_lab8"
+        mc:Ignorable="d"
+        Title="laba8" Height="500" Width="840">
+    <Window.Resources>
+        <!-- Стиль для кнопок -->
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="Auto"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+        </Style>
+
+        <!-- Стиль для текстових полів -->
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="110"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Text" Value=""/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Background" Value="PeachPuff"/>
+        </Style>
+
+        <!-- Стиль для Label-->
+        <Style TargetType="Label">
+            <Setter Property="Height" Value="Auto"/>
+            <Setter Property="Width" Value="110"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Background" Value="GreenYellow"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Label x:Name="label_ResultCreated" Content="Is not created" Margin="10,0,0,50" Width="Auto"/>
+        <Button Content="Create binary search tree" Margin="10,0,0,10" Click="button_CreateBinarySearchTree"/>
+
+        <TextBox x:Name="textBox_UsersEnter" Margin="10,20,10,0" 
+                 VerticalAlignment="Top" Width="400" Height="200" Text="6392508"/>
+
+
+        <Label Content="Enter element" Margin="200,0,0,85"/>
+        <TextBox x:Name="textBox_SearchElement" Margin="200,0,0,50"/>
+        <Button Content="Search element" Margin="200,0,0,10" Click="button_Search"/>
+
+        <Label Content="Enter element" Margin="320,0,0,85"/>
+        <TextBox x:Name="textBox_Apex" Margin="320,0,0,50"/>
+        <Button Content="Length to apex" Margin="320,0,0,10" Click="button_LengthToApex"/>
+
+        <Label Content="Enter element" Margin="440,0,0,85"/>
+        <TextBox x:Name="textBox_FindDadAndSon" Margin="440,0,0,50"/>
+        <Button Content="Find dad and son" Margin="440,0,0,10" Click="button_FindDadAndSon"/>
+
+        <Button Content="Mixed traversal" Margin="575,0,0,10" Click="button_MixedTraversal"/>
+        <TextBox x:Name="textBox_MixedTraversal" HorizontalAlignment="Right" Margin="10,20,10,0"
+                 VerticalAlignment="Top" Width="400" Height="200"/>
+
+        <Button Content="   Exit   " Margin="705,0,0,10" Click="button_Exit"/>
+    </Grid>
+</Window>

@@ -1,0 +1,72 @@
+﻿<Window x:Class="ACD_lab9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACD_lab9"
+        mc:Ignorable="d"
+        Title="lab9" Height="450" Width="800">
+    <Window.Resources>
+        <!-- Стиль для кнопок -->
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="Auto"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <!-- Стиль для текстових полів -->
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="110"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Text" Value=""/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Background" Value="PeachPuff"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <!-- Стиль для Label-->
+        <Style TargetType="Label">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="125"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Background" Value="GreenYellow"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <TextBox x:Name="textBox_PrintArray" Margin="10,10,10,0" Text="" HorizontalAlignment="Center"
+                 VerticalAlignment="Top" Height ="Auto" MaxHeight="140"  Width="Auto"/>
+
+        <Label Content="Number elements:" Margin="10,0,0,80" />
+        <TextBox x:Name="textBox_NumberElements" Margin="10,0,0,45" Text=""/>
+        <Button Content="Create array" Margin="10,0,0,10" Click="button_CreateArray"/>
+
+        <Button Content="Sort array" Margin="150,0,0,10" Click="button_SortArray"/>
+
+        <Label Margin="230,0,0,80" >
+            <TextBlock>
+                <Run Text="Enter position of"/>
+                <LineBreak/>
+                <Run Text="Fibonacci number:"/>
+            </TextBlock>
+        </Label>
+        <TextBox x:Name="textBox_NumberFibonacci" Margin="230,0,0,45" Text=""/>
+        <Button Content="Search element" Margin="230,0,0,10" Click="button_SearchElement"/>
+
+        <Label Content="Number comparisons:" Margin="370,0,0,80" />
+        <TextBox x:Name="textBox_NumberСomparisons" Margin="370,0,0,45" Text=""/>
+
+        <Button Content="   Exit    " Margin="0,0,10,10" Click="button_Exit" HorizontalAlignment="Right"/>
+    </Grid>
+</Window>
