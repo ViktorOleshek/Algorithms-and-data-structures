@@ -1,0 +1,26 @@
+﻿<Window x:Class="ACD_lab5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACD_lab5"
+        mc:Ignorable="d"
+        Title="laba5" Height="450" Width="800" Closing="OnClosing">
+    <Grid>
+        <Button Content="Create array" HorizontalAlignment="Left" Height="28" Margin="17,381,0,0" VerticalAlignment="Top" Width="100" Click="Button_CreateArray"/>
+        <Button Content="Sort array" HorizontalAlignment="Left" Height="28" Margin="425,381,0,0" VerticalAlignment="Top" Width="100" Click="Button_SortDescending"/>
+        <Button Content="Remove elements multiplies 3" HorizontalAlignment="Left" Height="28" 
+                Margin="135,381,0,0" VerticalAlignment="Top" Width="268" Click="Button_RemoveElementsMultiplies3"/>
+        <Button Content="Checking sort" HorizontalAlignment="Left" Height="28" Margin="541,381,0,0" VerticalAlignment="Top" Width="100" Click="Button_CheckingSort"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="28" Margin="667,381,0,0" VerticalAlignment="Top" Width="100" Click="Button_Exit"/>
+        <TextBox x:Name="TextBox_ArraySize1" HorizontalAlignment="Left" Height="29" Margin="17,343,0,0"
+                 TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" />
+        <TextBox x:Name="TextBox_StartArray" HorizontalAlignment="Left" VerticalAlignment="Top" Height="Auto" Margin="10,10,400,212" TextWrapping="Wrap" Text="" Width="Auto" />
+        <TextBox x:Name="TextBox_Count" HorizontalAlignment="Left" VerticalAlignment="Top" Height="Auto" Margin="10,150,400,100" TextWrapping="Wrap" Text="" Width="Auto" />
+        <TextBox x:Name="TextBox_SortArray" HorizontalAlignment="Right" VerticalAlignment="Top" Height="Auto" Margin="400,10,10,212" TextWrapping="Wrap" Text="" Width="Auto" />
+        <Label Content="array size" HorizontalAlignment="Left" Height="30" Margin="17,308,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="Label_ResultCheck" Content="Result: " HorizontalAlignment="Left"
+               Height="30" Margin="541,343,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="Label_SortingTime" Content="Time: " HorizontalAlignment="Left" Height="30" Margin="425,343,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>
